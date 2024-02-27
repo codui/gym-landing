@@ -1,0 +1,8 @@
+// @function perc($basis, $numb) {
+//   @return ($numb * 100%) / $basis;
+// }
+
+@function vwidth($num) {
+  $val_vw: (($num * 100) / 1920px ) * 1vw;
+  @return round($val_vw * 100) / 100;
+}

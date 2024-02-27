@@ -1,0 +1,91 @@
+@keyframes leftRight1 {
+  0% {
+    left: -19px;
+  }
+  100% {
+    left: -22px;
+  }
+}
+@keyframes leftRightArrow1 {
+  0% {
+    left: -17px;
+  }
+  100% {
+    left: -20px;
+  }
+}
+
+@keyframes leftRight2 {
+  0% {
+    right: -19px;
+  }
+  100% {
+    right: -22px;
+  }
+}
+@keyframes leftRightArrow2 {
+  0% {
+    right: -17px;
+  }
+  100% {
+    right: -20px;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    -moz-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    -o-transform: scale3d(1, 1, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+    -moz-transform: scale3d(1.05, 1.05, 1.05);
+    -ms-transform: scale3d(1.05, 1.05, 1.05);
+    -o-transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    -moz-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    -o-transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes blinkHorRight {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: 6px;
+  }
+}
+@keyframes blinkHorLeft {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 6px;
+  }
+}
+
+@keyframes blinkVerticLeft {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 8px;
+  }
+}
+@keyframes blinkVerticRight {
+  0% {
+    bottom: 0;
+  }
+  100% {
+    bottom: 8px;
+  }
+}

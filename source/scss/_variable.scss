@@ -1,0 +1,29 @@
+// COLORS
+$dark-bg: #333333;
+$dark-txt: #141414;
+$lemon: #ddfe25;
+$red: #ff0000;
+$white: #ffffff;
+$violet: #8438bd;
+$light-gray: #d3d3d3;
+$light-blue: #87cefa;
+// FONTS SIZE
+$root-f-size: 16px;
+// WIDTH_HEIGHT
+$cont-width: 1196px;
+$px1196: 1196px;
+$max-horiz: 1330px;
+$max-vert: 767px;
+
+
+
+// TEMPLATES
+%tplcolor {
+  /* TEMPLATE АБО ШАБЛОН */
+  color: deeppink;
+}
+
+// MIXIN
+@mixin fontz($f){
+  font-size: $f;
+}

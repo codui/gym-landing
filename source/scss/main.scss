@@ -1,0 +1,35 @@
+@import "resetEvgen.scss";
+@import "variable.scss";
+@import "_fonts.scss";
+@import "functions.scss";
+
+/* - - - MAIN CSS START - - - */
+
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 767px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 32px;
+  color: $white;
+  background: url('../img/texture.png') top center / 100% 100% no-repeat fixed padding-box content-box #e8e8e8;
+}
+
+main {
+  display: flex;
+  flex-basis: 602px;
+}
+
+@import "animations.scss";
+@import "layout.scss";
+@import "header.scss";
+@import "content-left.scss";
+@import "content-middle.scss";
+@import "content-right.scss";
+
+
+/* - - - MAIN CSS END - - - */

@@ -1,0 +1,126 @@
+/* - - - LEFT CONTENT START - - - */
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  min-height: 523px;
+  @media screen and (max-width: 1200px) {
+    width: 50%;
+    min-height: 0;
+		padding: 10px;
+    &__left {
+      order: 2;
+      align-items: flex-end;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.decor-wrap {
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
+}
+
+.left-decor__crosses {
+  max-width: 146px;
+  width: 100%;
+  margin: 2px 0px 0 32px;
+}
+
+.info {
+  display: flex;
+  flex-flow: column nowrap;
+  @media screen and (max-width: 1200px) {
+    justify-content: space-between;
+  }
+}
+
+.left__info {
+  min-height: 193px;
+  @media screen and (max-width: 1200px) {
+    min-height: 0;
+    align-items: center;
+  }
+}
+
+.title {
+  width: 100%;
+  font-size: min(32px, 7vw);
+  line-height: min(40px, 11vw);
+  letter-spacing: -0.7px;
+  font-weight: 600;
+  color: $lemon;
+  &__left {
+    text-align: left;
+    padding: 13px 14px 10px 0;
+    max-width: 220px;
+    margin: 0;
+    @media screen and (max-width: 1200px) {
+      max-width: none;
+      padding: 5px;
+      text-align: center;
+    }
+  }
+}
+
+.text {
+  font-size: 21px;
+  line-height: 27px;
+  letter-spacing: 0.1px;
+  color: $white;
+  font-weight: 400;
+  @media screen and (max-width: 1200px) {
+    max-width: 400px;
+    padding: 5px;
+    text-align: center;
+  }
+  &__left {
+    padding: 9px 48px 10px 0;
+  }
+	@media screen and (max-width: 600px) {
+    padding: 10px;
+  }
+}
+
+.btn-wrap {
+  @media screen and (max-width: 1200px) {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.btn-main {
+  min-width: 165px;
+  min-height: 48px;
+  border: none;
+  font-size: 24px;
+  font-weight: 500;
+  color: $dark-txt;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  -ms-border-radius: 23px;
+  -o-border-radius: 23px;
+  border-radius: 23px;
+  background-color: $lemon;
+  margin-bottom: 69px;
+	&:hover {
+		-webkit-box-shadow: 0px 0px 10px 5px $violet;
+    box-shadow: 0px 0px 10px 5px $violet;
+		color: $violet;
+	}
+	&:active {
+		-webkit-box-shadow: 0px 0px 10px 5px inset $violet;
+    box-shadow: 0px 0px 10px 5px inset $violet;
+		color: $dark-txt;
+	}
+  @media screen and (max-width: 1200px) {
+    margin: 10px 0;
+  }
+}
+/* - - - LEFT CONTENT END - - - */
