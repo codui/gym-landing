@@ -491,11 +491,13 @@ main {
   color: #87cefa;
   margin: 0 8px 0 0;
   border-radius: 6px;
-  background: url(../icons/search.svg) 5% center/25px 25px no-repeat, transparent;
+  background: url(../icons/search.svg) 1% center/25px 25px no-repeat, transparent;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
+  transition-property: background-color;
+  transition-duration: 0.5s;
 }
 @media screen and (max-width: 803px) {
   .nav__input {
@@ -506,10 +508,7 @@ main {
 }
 .nav__input:hover {
   cursor: pointer;
-  padding-left: 28px;
   background-color: #8438bd;
-  transition-property: padding-left, background-color;
-  transition-duration: 0.5s;
 }
 @media screen and (max-width: 803px) {
   .nav__input:hover {
@@ -518,7 +517,9 @@ main {
   }
 }
 .nav__input:focus {
-  outline: 1px solid lightskyblue;
+  padding-left: 35px;
+  background-color: #8438bd;
+  outline: 1px solid #87cefa;
 }
 
 .logo {
