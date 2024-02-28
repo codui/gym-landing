@@ -363,10 +363,6 @@ main {
     width: 100%;
   }
 }
-.nav__item:nth-child(1):hover .nav__input {
-  cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.2);
-}
 .nav__item:nth-child(2) {
   /* padding: 0 44.26px 0 0; */
   left: -4vw;
@@ -495,13 +491,11 @@ main {
   color: #87cefa;
   margin: 0 8px 0 0;
   border-radius: 6px;
-  background: url(../icons/search.svg) left center/25px 25px no-repeat, transparent;
+  background: url(../icons/search.svg) 5% center/25px 25px no-repeat, transparent;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
-  transition-property: padding-left, background-color;
-  transition-duration: 0.5s;
 }
 @media screen and (max-width: 803px) {
   .nav__input {
@@ -513,6 +507,9 @@ main {
 .nav__input:hover {
   cursor: pointer;
   padding-left: 28px;
+  background-color: #8438bd;
+  transition-property: padding-left, background-color;
+  transition-duration: 0.5s;
 }
 @media screen and (max-width: 803px) {
   .nav__input:hover {
