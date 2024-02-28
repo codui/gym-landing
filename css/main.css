@@ -364,7 +364,6 @@ main {
   }
 }
 .nav__item:nth-child(2) {
-  /* padding: 0 44.26px 0 0; */
   left: -4vw;
 }
 @media screen and (max-width: 1200px) {
@@ -522,6 +521,14 @@ main {
   outline: 1px solid #87cefa;
 }
 
+@media screen and (max-width: 803px) {
+  .nav__item.mob__el {
+    position: static;
+    margin: 0;
+    display: inline-block;
+    padding: 5px;
+  }
+}
 .logo {
   display: block;
   padding: 10px;
