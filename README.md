@@ -1,5 +1,10 @@
 ﻿# Gym-landing
 Landing site with animations and javascrpt.
 
-[<h2>Link to the site on github pages.</h2>](https://duckduckgo.com)
+[Link to the site on github pages.](https://codui.github.io/gym-landing/)
+
+<h2>
+  <a href="https://codui.github.io/gym-landing/">Link to the site on github pages.</a>
+</h2>
+
 ![](img/site.png)
